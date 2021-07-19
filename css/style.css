@@ -1,0 +1,21 @@
+body, html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #74A583;
+    width: 100vw;
+    height: 100vh;
+}
+
+.shipGame {
+    width: 100px;
+    height: 73.44px;
+    background-image: url("../ship.png");
+    position: absolute;
+}
+
+/* Tela inicial para dar o start no jogo, deixar none */
+.screenMsg{
+    position: absolute;
+    
+    display: none;
+}
